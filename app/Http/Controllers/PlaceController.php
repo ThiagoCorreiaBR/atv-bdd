@@ -11,7 +11,7 @@ class PlaceController extends Controller
     //}
 
     public function hello(){
-        $name = 'Joao';
+        $name = 'Taylor';
         return view('hello',compact('name'));
     }
 }
