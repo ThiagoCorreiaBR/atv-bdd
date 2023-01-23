@@ -16,4 +16,4 @@ use App\Http\Controllers\PlaceController;
 
 Route::get('/', function () { return view('welcome');});
 Route::get('/places',[PlaceController::class,'places']);
-Route::get('/hello',[PlaceController::class,'hello']);
+Route::get('/dbz',[PlaceController::class,'dbz']);

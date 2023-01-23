@@ -10,8 +10,13 @@ class PlaceController extends Controller
      //   return view('Locais');
     //}
 
-    public function hello(){
-        $name = 'Taylor';
-        return view('hello',compact('name'));
+    public function dbz(){
+        $power = 800;
+        if($power>8000){
+            $energy='Mais de 8000!';
+        }else{
+            $energy='Inseto!';
+        }
+        return view('dbz',compact('energy'));
     }
 }
