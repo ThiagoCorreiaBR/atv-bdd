@@ -12,7 +12,7 @@ class PlaceController extends Controller
 
     public function dbz(){
         $power = 800;
-        if($power>8000){
+        if($power>9000){
             $energy='Mais de 8000!';
         }else{
             $energy='Inseto!';
