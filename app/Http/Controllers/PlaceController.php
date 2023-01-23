@@ -19,4 +19,9 @@ class PlaceController extends Controller
         }
         return view('dbz',compact('energy'));
     }
+
+    public function names(){
+        $names = ['joao','roberto'];
+        return view('clients',compact('names'));
+    }
 }
